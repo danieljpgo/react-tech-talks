@@ -2004,11 +2004,6 @@
     "@typescript-eslint/types" "4.15.2"
     eslint-visitor-keys "^2.0.0"
 
-"@ungap/url-search-params@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@ungap/url-search-params/-/url-search-params-0.1.4.tgz#727e9b4c811beaa6be6d7e4cc0516663c884cfd0"
-  integrity sha512-RLwrxCTDNiNev9hpr9rDq8NyeQ8Nn0X1we4Wu7Tlf368I8r+7hBj3uObhifhuLk74egaYaSX5nUsBlWz6kjj+A==
-
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.9.0.tgz"
@@ -9105,15 +9100,6 @@ react-router-dom@^6.0.0-beta.0:
   resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.0.0-beta.0.tgz#9dcc8555365f22f7fbd09f26b6b82543f3eb97d6"
   integrity sha512-36yNNGMT8RB9FRPL9nKJi6HKDkgOakU+o/2hHpSzR6e37gN70MpOU6QQlmif4oAWWBwjyGc3ZNOMFCsFuHUY5w==
   dependencies:
-    prop-types "^15.7.2"
-    react-router "6.0.0-beta.0"
-
-react-router-native@^6.0.0-beta.0:
-  version "6.0.0-beta.0"
-  resolved "https://registry.yarnpkg.com/react-router-native/-/react-router-native-6.0.0-beta.0.tgz#5ab33c06077e06da927c3505f6de91ed1f8d9a1d"
-  integrity sha512-rtQaM5YjTuLsiOzJK1A6KxmgCTjvbx2vLG6vBOHOPxFgjLnfBOKsTfHYYm4DbqwQvde1JsyfEd8b5BdJO9ZO2A==
-  dependencies:
-    "@ungap/url-search-params" "^0.1.4"
     prop-types "^15.7.2"
     react-router "6.0.0-beta.0"
 

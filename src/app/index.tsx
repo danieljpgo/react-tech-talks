@@ -1,8 +1,8 @@
-import Modules from './modules';
+import Routers from './main/routers';
 import './styles/global.css';
 
 const App = () => (
-  <Modules />
+  <Routers />
 );
 
 export default App;
