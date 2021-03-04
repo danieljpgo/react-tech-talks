@@ -1,3 +1,7 @@
-const Exercise01 = () => <div>A</div>;
+const Exercise01 = () => (
+  <div>
+    test
+  </div>
+);
 
 export default Exercise01;
