@@ -6,8 +6,10 @@ import {
 } from 'react-router-dom';
 import Exercise from '../../modules/composition/exercise';
 import Exercise01 from '../../modules/composition/exercise/01';
+import Exercise02 from '../../modules/composition/exercise/02';
 import Final from '../../modules/composition/final';
 import Final01 from '../../modules/composition/final/01';
+import Final02 from '../../modules/composition/final/02';
 
 const Routers = () => (
   <BrowserRouter>
@@ -27,6 +29,11 @@ const Routers = () => (
             path="01"
             element={<Exercise01 />}
           />
+          <Route
+            key="02"
+            path="02"
+            element={<Exercise02 />}
+          />
         </Route>
         <Route
           key="final"
@@ -37,6 +44,11 @@ const Routers = () => (
             key="01"
             path="01"
             element={<Final01 />}
+          />
+          <Route
+            key="02"
+            path="02"
+            element={<Final02 />}
           />
         </Route>
       </Route>
