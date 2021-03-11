@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 import type { Children } from '../../../common/types/children';
 
 // components/Card/CardHeader/index.tsx

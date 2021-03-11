@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 import { Children } from '../../../common/types/children';
 
 // ListUsers/UserCard/index.tsx

@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 interface CardProps {
   user: string,
   onSelect: (user: string) => void,

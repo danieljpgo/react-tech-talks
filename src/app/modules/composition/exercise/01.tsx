@@ -1,3 +1,5 @@
+/* eslint-disable no-alert */
+
 const sizes = {
   lg: 'max-w-lg',
   sm: 'max-w-sm',
